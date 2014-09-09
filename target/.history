@@ -1,0 +1,37 @@
+console
+exit
+test:console 
+exit
+:q
+q
+exit
+console
+wxit
+exit
+console
+exit
+console 
+exit
+console
+exit
+console
+gen-ensime
+exit
+console
+:q
+exit
+conosle 
+sondole
+console
+:q
+exit
+console
+exit
+console
+run
+console
+activator
+run-main WordCountJob 
+last compile:runMain 
+exit
+run-main WordCountJob 

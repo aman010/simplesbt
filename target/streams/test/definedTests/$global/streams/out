@@ -1,0 +1,2 @@
+[debug] Subclass fingerprints: List((org.scalacheck.Properties,true,sbt.SubclassFingerprintWrapper@590e6359), (org.scalacheck.Properties,true,sbt.SubclassFingerprintWrapper@3f9c95bc), (org.specs2.specification.SpecificationStructure,true,specs2 Specification fingerprint), (org.specs2.specification.SpecificationStructure,false,specs2 Specification fingerprint), (org.specs2.runner.FilesRunner,true,specs2 Specification files fingerprint), (org.specs2.runner.FilesRunner,false,specs2 Specification files fingerprint))
+[debug] Annotation fingerprints: List()

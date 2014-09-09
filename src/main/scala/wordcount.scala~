@@ -1,0 +1,10 @@
+import com.twitter.scalding._
+
+class wordcount(args:Args) extends Job(args) {
+
+TextLine("/home/geek/Desktop/simplesbt/src/main/data/articles.txt")
+         .flatMap('line -> 'word) {line:String => line.split("""\s+""")}
+         .groupBy('word){_.size}
+         .write(Tsv("/home/geek/Desktop/simplesbt/src/main/data/output.txt"))
+
+}

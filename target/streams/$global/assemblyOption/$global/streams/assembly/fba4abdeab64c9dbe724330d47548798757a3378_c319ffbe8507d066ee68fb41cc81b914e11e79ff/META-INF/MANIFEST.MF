@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1397747481222
+Bundle-ManifestVersion: 2
+Bundle-Name: org.scalaz.effect
+Bundle-SymbolicName: org.scalaz.effect
+Bundle-Version: 7.0.6
+Created-By: 1.7.0_51 (Oracle Corporation)
+Export-Package: scalaz.effect;version="7.0.6";uses:="scala,scala.collect
+ ion,scala.collection.immutable,scala.reflect,scala.runtime,scalaz,scala
+ z.std.effect,scalaz.syntax,scalaz.syntax.effect",scalaz.std.effect;vers
+ ion="7.0.6";uses:="scala,scala.reflect,scala.runtime,scalaz.effect,scal
+ az.std.effect.sql,scalaz.syntax.effect",scalaz.std.effect.sql;version="
+ 7.0.6";uses:="scala,scala.reflect,scala.runtime,scalaz.effect,scalaz.sy
+ ntax.effect",scalaz.syntax.effect;version="7.0.6";uses:="scala,scala.re
+ flect,scala.runtime,scalaz,scalaz.effect,scalaz.syntax"
+Import-Package: scala;version="[2.11,3)",scala.collection;version="[2.11
+ ,3)",scala.collection.immutable;version="[2.11,3)",scala.reflect;versio
+ n="[2.11,3)",scala.runtime;version="[2.11,3)",scalaz,scalaz.std,scalaz.
+ syntax
+Tool: Bnd-2.1.0.20130426-122213
