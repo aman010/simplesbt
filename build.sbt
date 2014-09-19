@@ -1,3 +1,4 @@
+
 scalaVersion := "2.11.1"
 
 val scalazVersion= "7.0.6"
@@ -12,3 +13,5 @@ libraryDependencies ++= Seq(
 scalacOptions +="-feature"
 
 initialCommands in console := "import scalaz._ , Scalaz._"
+
+net.virtualvoid.sbt.graph.Plugin.graphSettings

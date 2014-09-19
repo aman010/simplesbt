@@ -4,7 +4,7 @@
 		module="activator-scalding_2.11"
 		revision="0.9.0"
 		status="integration"
-		publication="20140908140506"
+		publication="20140919234500"
 	>
 		<description>
 		The scalding tutorial as an SBT project
@@ -27,9 +27,7 @@
 	</configurations>
 	<publications>
 		<artifact name="activator-scalding_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="activator-scalding_2.11" type="jar" ext="jar" conf="compile"/>
-		<artifact name="activator-scalding_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="activator-scalding_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="activator-scalding_2.11" type="jar" ext="jar" conf="optional" e:classifier="download"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.1" conf="scala-tool->default,optional(default)"/>
@@ -41,8 +39,9 @@
 			<exclude org="cascading" module="cascading-local" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="cascading" module="cascading-hadoop" name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.2.0" conf="provided->default(compile)"/>
-		<dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-core" rev="2.2.0" conf="provided->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-core" rev="2.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalamock" name="scalamock-specs2-support_2.11" rev="3.1.1" conf="test->default(compile)"/>
 		<dependency org="org.scalaz" name="scalaz-core_2.11" rev="7.0.6" conf="compile->default(compile)"/>
 		<dependency org="org.scalaz" name="scalaz-effect_2.11" rev="7.0.6" conf="compile->default(compile)"/>

@@ -35,3 +35,28 @@ run-main WordCountJob
 last compile:runMain 
 exit
 run-main WordCountJob 
+update 
+assembly
+:q
+exit
+console
+assembly
+exit
+assembly
+exit
+:q
+exit
+assembly
+dependency-graph
+:q
+exit
+dependency-graph
+sbt-dependency-graph
+dependency-graph
+dependency-graph-classpath
+exit
+assembly
+exit
+update
+run
+exit

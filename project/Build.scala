@@ -27,17 +27,26 @@ val excludes = Set(
 "minlog-1.2.jar", // Otherwise causes conflicts with Kyro (which bundles it)
 "janino-2.5.16.jar", // Janino includes a broken signature, and is not needed anyway
 "commons-beanutils-core-1.8.0.jar", // Clash with each other and with commons-collections
-"commons-beanutils-1.7.0.jar", // "
+"commons-beanutils-1.7.0.jar", //  "
 "hadoop-core-1.1.2.jar",
 "hadoop-tools-1.1.2.jar" // "
 )
 cp filter { jar => excludes(jar.data.getName) }
 },
 mergeStrategy in assembly <<= (mergeStrategy in assembly) {
-(old) => {
-  case "project.clj" => MergeStrategy.discard // Leiningen build files
-  case x => old(x)
-}
+    (old) => {
+      case "project.clj" => MergeStrategy.discard // Leiningen build files
+      case PathList("com", "esotericsoftware", xs @ _*) => MergeStrategy.last
+      case PathList("org","apache","commons","beanutils",  xs @ _*)  => MergeStrategy.last
+      case PathList("org","apache","commons","collections" , xs @ _*) => MergeStrategy.last
+      case PathList("org","apache","hadoop","yarn",  xs @ _*) => MergeStrategy.last
+      case PathList("org","objectweb", xs @ _*) => MergeStrategy.last
+      case x => old(x)
+    }
+  },
+
+excludedJars in assembly <<= (fullClasspath in assembly) map { cp =>
+ cp filter {x => x.data.getName.matches("sbt.*") || x.data.getName.matches(".*macros.*")}
 }
 )
 lazy val buildSettings = basicSettings ++ sbtAssemblySettings
@@ -67,8 +76,9 @@ val cascadingCore = "cascading" % "cascading-core" % V.cascading
 val cascadingLocal = "cascading" % "cascading-local" % V.cascading
 val cascadingHadoop = "cascading" % "cascading-hadoop2-mr1" % V.cascading
 val scaldingCore = "com.twitter" % "scalding-core_2.10" % V.scalding exclude( "cascading", "cascading-local" ) exclude( "cascading", "cascading-hadoop" )
-val hadoopCore = "org.apache.hadoop" % "hadoop-common" % V.hadoop % "provided"
-val hadoopClientCore = "org.apache.hadoop" % "hadoop-mapreduce-client-core" % V.hadoop % "provided"
+val hadoopCore = "org.apache.hadoop" % "hadoop-common" % V.hadoop
+val hadoopClientCore = "org.apache.hadoop" % "hadoop-mapreduce-client-core" % V.hadoop
+val hadoopClient = "org.apache.hadoop" % "hadoop-client" % V.hadoop
 // Add additional libraries from mvnrepository.com (SBT syntax) here...                                                                               
 // Scala (test only)                                                                                                                                  
 val specs2 = "org.scalamock" % "scalamock-specs2-support_2.11" % V.specs2 % "test"
@@ -80,7 +90,7 @@ object Dependencies {
 import Dependency._
 
 val activatorscalding = Seq(
-cascadingCore , cascadingLocal , cascadingHadoop , scaldingCore , hadoopCore , hadoopClientCore , specs2)
+cascadingCore , cascadingLocal , cascadingHadoop , scaldingCore , hadoopCore , hadoopClientCore , hadoopClient,specs2)
 }
 
 object ActivatorScaldingBuild extends Build {

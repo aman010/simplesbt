@@ -1,5 +1,4 @@
 import org.apache.hadoop.classification.{InterfaceStability, InterfaceAudience}
-import com.twitter.scalding
 import org.apache.hadoop.util.{Tool, ToolRunner}
 import org.apache.hadoop.conf.Configuration
 import java.io.File
@@ -33,8 +32,7 @@ import org.apache.hadoop
   */
 @InterfaceAudience.Public
 @InterfaceStability.Unstable
-class NoJarTool(wrappedTool: hadoop.util.Tool,collectClassesFrom: Option[File] = Some(new File("target/scala-2.11/classes/")),libJars: List[File] = Nil) extends Tool {
-
+class NoJarTool(wrappedTool: hadoop.util.Tool,collectClassesFrom: Option[File] = Some(new File("/target/scala-2.11/classes/")),libJars: List[File] = Nil) extends Tool {
 private var config = new Configuration()
 protected def run(args: Array[String]): Int = {
 
@@ -43,7 +41,6 @@ collectClassesFrom map { classesDir =>
 val classes = collectClasses(classesDir) map { clazz => prefixWithFileIfNeeded(clazz.toFile.getAbsolutePath) }
 val jars = libJars.map(jar => prefixWithFileIfNeeded(jar.toString))
 setLibJars(config, classes ++ jars)
-
 }
 
 ToolRunner.run(config, wrappedTool, args)
@@ -64,9 +61,9 @@ buffer.toList
 /**
   *  Check's if the user didn't accidentaly break our config into Local mode.
   *  See Cascading's [[cascading.flow.hadoop.HadoopFlowStep]] to see how Cascading decides if it should use
-  *  [[org.apache.hadoop.mapred.LocalJobRunner]] or the "real" one.
+  * orgapachehadoopmapredLocalJobRunner or the "real" one.
   */
-def checkIfConfigValidForRealMode(conf: Configuration) {
+def checkIfConfigValidForRealMode(conf: Configuration)  {
 val key: String = "mapred.job.tracker"
 val jobTracker = conf.get(key)
 if(jobTracker == "local") {
