@@ -2,260 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76cbd886-7099-4fc3-b31f-a5162d3e739e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_concurrent_2_10_7_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT___scala_compiler_bundle_2_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_core_2_10_7_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_effect_2_10_7_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_4.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_1.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_ow2_asm_asm_util_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/default/root-ensime_cache-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.history" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$0588187f7b6c8a593fe5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$7d8ced76d431b136d603.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_0.nrm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$7d8ced76d431b136d603$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9dd7a0467cad2ac2a1eb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$69e04b4534a0a27a4af6$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_1.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$b48100ffa1ba4d02379e.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$ceb61c4f4e7dd5d73c25$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalaz_scalaz_scalacheck_binding_2_11_7_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$fab2a5b276282489c711$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/default/root-ensime_cache-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$53608e7c917912e62e73.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$6892079be3bf76a0f67a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_2.nrm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$e1617e20b72f971a9820$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/segments_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/$global/$global/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$1d51777f78da3d6c4e46.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$d5ded5d228ac723f6b7f.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9bc0a4ada9ba0de17fbf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$4a16976de1952c90dce2$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$6892079be3bf76a0f67a$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/$global/update/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$fab2a5b276282489c711.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$ebc4c6a0c34d68d5503c.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_ow2_asm_asm_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalaz_scalaz_xml_2_11_7_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_pegdown_pegdown_1_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$679089955e2f584116cb$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_classycle_1_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$fb928c5eff9f132fe4db$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalaz_scalaz_iteratee_2_11_7_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$ceb61c4f4e7dd5d73c25.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/$global/update/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/data/output.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$b67fd740dd65a32e6f70$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$7d8ced76d431b136d603$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/$global/$global/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_sbt_test_interface_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$e1617e20b72f971a9820$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_0.tis" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$bfd4da564c2bd8539017.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_2.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$b48100ffa1ba4d02379e$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$f115f51aa9a4699aa30f$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_parboiled_parboiled_core_1_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$0588187f7b6c8a593fe5$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$0588187f7b6c8a593fe5.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$69e04b4534a0a27a4af6.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$b48100ffa1ba4d02379e.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$e1617e20b72f971a9820.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$56cf2ae4311b964d2040$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9f583fbb5ce6151a6b04$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/resolution-cache/default/root-ensime_cache_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$f115f51aa9a4699aa30f$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_1.nrm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$679089955e2f584116cb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$ebc4c6a0c34d68d5503c.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$69e04b4534a0a27a4af6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$7d8ced76d431b136d603.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_1.tis" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/compile/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/$global/update/$global/streams/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__cascading_cascading_hadoop2_mr1_2_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__cascading_cascading_local_2_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$d5ded5d228ac723f6b7f.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$69e04b4534a0a27a4af6$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_2.tis" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$53608e7c917912e62e73$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9bc0a4ada9ba0de17fbf$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$ebc4c6a0c34d68d5503c$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9bc0a4ada9ba0de17fbf$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$b67fd740dd65a32e6f70.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_2.frq" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$e23f8382702542acec49$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$56cf2ae4311b964d2040.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/$global/update/$global/streams/inputs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_1.frq" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$7be5d571122654d458f5$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$4a16976de1952c90dce2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$fb928c5eff9f132fe4db$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$4a16976de1952c90dce2.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$d5ded5d228ac723f6b7f$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$b67fd740dd65a32e6f70$$anonfun$$sbtdef$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/#build.sbt#" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$d5ded5d228ac723f6b7f$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$7be5d571122654d458f5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$7be5d571122654d458f5$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__thirdparty_jgrapht_jdk1_6_0_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalaz_scalaz_core_2_11_7_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_1.tii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_0.prx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$4a16976de1952c90dce2$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/build.sbt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$ebc4c6a0c34d68d5503c$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_0.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$ceb61c4f4e7dd5d73c25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_1.fdt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$fb928c5eff9f132fe4db.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_mockito_mockito_core_1_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9f583fbb5ce6151a6b04$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_2.tii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9dd7a0467cad2ac2a1eb$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_2.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$679089955e2f584116cb$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_2.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalaz_scalaz_typelevel_2_11_7_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$bfd4da564c2bd8539017.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_2.prx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/compile/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$bfd4da564c2bd8539017$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$6892079be3bf76a0f67a$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$53608e7c917912e62e73.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$f115f51aa9a4699aa30f.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$679089955e2f584116cb.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$1d51777f78da3d6c4e46$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$e1617e20b72f971a9820.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$b67fd740dd65a32e6f70.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$6892079be3bf76a0f67a.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/compile/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_0.tii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9dd7a0467cad2ac2a1eb.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_0.fdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_ow2_asm_asm_tree_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$e23f8382702542acec49.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalaz_scalaz_effect_2_11_7_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$56cf2ae4311b964d2040$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$ceb61c4f4e7dd5d73c25$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__cascading_cascading_core_2_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$fb928c5eff9f132fe4db.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$fab2a5b276282489c711.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9f583fbb5ce6151a6b04.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$53608e7c917912e62e73$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_0.fnm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/resolution-cache/default/root-ensime_cache_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9dd7a0467cad2ac2a1eb$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$1d51777f78da3d6c4e46$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9bc0a4ada9ba0de17fbf.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalacheck_scalacheck_2_11_1_11_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$9f583fbb5ce6151a6b04.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/segments.gen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_parboiled_parboiled_java_1_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$0588187f7b6c8a593fe5$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$e23f8382702542acec49.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_1.prx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalaz_scalaz_concurrent_2_11_7_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_ow2_asm_asm_analysis_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/wordcount.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/compile/run/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_compiler_2_11_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/_0.frq" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$7be5d571122654d458f5.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/resolution-cache/reports/default-root-ensime_cache-build-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$bfd4da564c2bd8539017$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$f115f51aa9a4699aa30f.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$1d51777f78da3d6c4e46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$b48100ffa1ba4d02379e$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ensime_cache/project/target/config-classes/$56cf2ae4311b964d2040.cache" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_2_11_2_3_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_2_10_1_13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Build.scala" afterPath="$PROJECT_DIR$/project/Build.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_date_2_10_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_date_2_10_0_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Runall.scala" afterPath="$PROJECT_DIR$/src/main/scala/Runall.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/WordCountJob.scala" afterPath="$PROJECT_DIR$/src/main/scala/WordCountJob.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalamock_scalamock_core_2_11_3_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalamock_scalamock_core_2_10_3_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/data/articles.txt" afterPath="$PROJECT_DIR$/src/main/data/articles.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_core_2_10_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_args_2_10_0_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Activator-Scalding.iml" afterPath="$PROJECT_DIR$/.idea/modules/Activator-Scalding.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_args_2_10_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_core_2_10_0_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/NoJarTool.scala" afterPath="$PROJECT_DIR$/src/main/scala/NoJarTool.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalamock_scalamock_specs2_support_2_11_3_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalamock_scalamock_specs2_support_2_10_3_0_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.ensime_cache/lucene/write.lock" afterPath="$PROJECT_DIR$/src/main/scala/test.sc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_maple_0_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_maple_0_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_server_nodemanager_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/#Activator.scala#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/.NoJarTool.scala.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/test.sc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Scalding.iml" afterPath="$PROJECT_DIR$/.idea/modules/Scalding.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="simplesbt.iws" />
@@ -287,18 +40,8 @@
       <file leaf-file-name="WordCountJob.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/WordCountJob.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="960">
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="930">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.sc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -336,10 +79,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="52" />
-    <option name="width" value="683" />
-    <option name="height" value="716" />
+    <option name="y" value="24" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -383,7 +125,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,8 +133,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplesbt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplesbt" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -641,6 +393,19 @@
       <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="Activator-Scalding" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -659,19 +424,6 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="Activator-Scalding" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Test-project" type="Application" factoryName="Application" show_console_on_std_out="true" show_console_on_std_err="true">
@@ -771,7 +523,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="52" width="683" height="716" extended-state="0" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -779,25 +531,25 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.79663867" sideWeight="0.5226929" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56202143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.87595713" sideWeight="0.48260212" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58039814" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2488263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36463225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1762481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7534456" sideWeight="0.51664144" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5808" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -815,15 +567,15 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5834609" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17700455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6906585" sideWeight="0.51664144" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6906585" sideWeight="0.51664144" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1193,14 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51282054" vertical-offset="0" max-vertical-offset="705">
           <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
