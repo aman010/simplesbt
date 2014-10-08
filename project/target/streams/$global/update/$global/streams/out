@@ -15,15 +15,14 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.11.2[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.eed3si9n#sbt-assembly;0.11.2[0m
 [0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.11.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving net.virtual-void#sbt-dependency-graph;0.7.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.7.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.7.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: net.virtual-void#sbt-dependency-graph;0.7.4[0m
 [0m[[0mdebug[0m] [0m	found net.virtual-void#sbt-dependency-graph;0.7.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mdr#ascii-graphs_2.10;0.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.10;0.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -44,16 +43,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -62,6 +65,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [test][0m
@@ -69,10 +77,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -81,12 +88,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24d815c4[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2469fb45[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
@@ -646,10 +658,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -661,6 +672,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [provided][0m
@@ -994,10 +1010,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -1006,6 +1021,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
@@ -1015,10 +1035,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.4->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
@@ -1030,6 +1049,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#simplesbt-build;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#simplesbt-build;0.1-SNAPSHOT [provided][0m
@@ -1462,7 +1486,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1173ms :: artifacts dl 56ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1237ms :: artifacts dl 45ms[0m
 [0m[[0mdebug[0m] [0m	report for default#simplesbt-build;0.1-SNAPSHOT compile produced in /home/geek/Desktop/simplesbt/project/target/resolution-cache/reports/default-simplesbt-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#simplesbt-build;0.1-SNAPSHOT runtime produced in /home/geek/Desktop/simplesbt/project/target/resolution-cache/reports/default-simplesbt-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#simplesbt-build;0.1-SNAPSHOT test produced in /home/geek/Desktop/simplesbt/project/target/resolution-cache/reports/default-simplesbt-build-test.xml[0m
@@ -1476,5 +1500,5 @@
 [0m[[0mdebug[0m] [0m	report for default#simplesbt-build;0.1-SNAPSHOT docs produced in /home/geek/Desktop/simplesbt/project/target/resolution-cache/reports/default-simplesbt-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#simplesbt-build;0.1-SNAPSHOT pom produced in /home/geek/Desktop/simplesbt/project/target/resolution-cache/reports/default-simplesbt-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#simplesbt-build;0.1-SNAPSHOT scala-tool produced in /home/geek/Desktop/simplesbt/project/target/resolution-cache/reports/default-simplesbt-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1173ms resolve - 56ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1237ms resolve - 45ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,7 +1,10 @@
 import com.twitter.scalding
+import org.apache.hadoop.mapred.JobClient
 import org.apache.hadoop.tools
 import org.apache.hadoop.util.ToolRunner
+import org.apache.hadoop.util.ToolRunner.run
 import org.apache.hadoop.conf.Configuration
+import org.apache.hadoop.mapred.JobConf
 import scala.io.Source
 import java.io.File
 /**
@@ -11,35 +14,36 @@ import java.io.File
   *  of the examples with the ability to specify your own arguments.
   *  See also the companion objects' main methods.
   */
-object Run {
-
-  def run(name: String, message: String, args: Array[String]): Int = {
-    run(name, new File("/home/geek/Desktop/simplesb" + "/target/scala-2.11/classes/"), message, args)
-  }
-def run(name: String, classDir:File, message: String, args: Array[String]):Int = {
+object Runall {
+def run(name: String , message: String, args: Array[String]):Int = {
 println(s"\n==== $name " + ("===" * 20))
 println(message)
 val argsWithName = name +: args
 println(s"Running: ${argsWithName.mkString(" ")}")
-
-  val masterIp= "geek-HP-G42-Notebook-PC"
-
   val conf = new Configuration
-
-  conf.setStrings("fs.default.name",s"hdfs://$masterIp:9000")
+  val masterIp= "geek-HP-G42-Notebook-PC"
+// val job = new JobConf()
+  conf.setStrings("fs.defaultFS",s"hdfs://$masterIp:9000")
   conf.setStrings("mapred.job.tracker",s"$masterIp:9001")
+  conf.setStrings("mapreduce.framework.name","yarn")
+  //conf.setStrings("yarn.resourcemanager.hostname","localhost")
+  //job.set("yarn.resourcemanager.scheduler.address","0.0.0.0:8030")
+  //job.set("yarn.resourcemanager.webapp.address","localhost:8088")
+  //job.set("mapreduce.jobtracker.staging.root.dir", "file:///tmp/hadoop-geek/mapred/staging")
+  //job.set("yarn.resourcemanager.address","localhost:8040")
+  //job.set("yarn.log.server.url","http://localhost:19888/jobhistory/logs")
 
 val tool = new NoJarTool(
   wrappedTool = new scalding.Tool,
-  collectClassesFrom = Some(new File("/home/geek/Desktop/simplesbt/target/scala-2.11/classes")),
-  libJars = List(new File("/home/geek/Desktop/simplesbt/target/scala-2.11/jars/Activator-Scalding-0.9.0.jar")))
+  collectClassesFrom = Some(new File(("/home/geek/Desktop/simplesbt/target/scala-2.10/classes/"))),
+  libJars = List(new File("/home/geek/Desktop/simplesbt/target/scala-2.10/Activator-Scalding-assembly-0.9.1-deps.jar"), new File("/home/geek/Desktop/simplesbt/target/scala-2.10/classes.jar")))
 
   ToolRunner.run(conf , tool , argsWithName)
 }
 def printSomeOutput(outputFileName: String, message: String = "") = {
 if (message.length > 0) println(message)
 println("Output in $outputFileName:")
-Source.fromFile(outputFileName).getLines.take(10) foreach println
+Source.fromFile(outputFileName).getLines.take(10000) foreach println
 println("...\n")
 }
 }

@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Vendor: com.twitter
-Implementation-Title: scalding-args
-Implementation-Version: 0.9.0
-Implementation-Vendor-Id: com.twitter
-Specification-Vendor: com.twitter
-Specification-Title: scalding-args
-Specification-Version: 0.9.0
-

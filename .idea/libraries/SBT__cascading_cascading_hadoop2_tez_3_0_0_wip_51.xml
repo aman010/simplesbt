@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: cascading:cascading-hadoop2-tez:3.0.0-wip-51">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/cascading/cascading-hadoop2-tez/jars/cascading-hadoop2-tez-3.0.0-wip-51.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

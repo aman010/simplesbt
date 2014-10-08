@@ -1,4 +1,5 @@
 import org.apache.hadoop.classification.{InterfaceStability, InterfaceAudience}
+import org.apache.hadoop.mapred.JobConf
 import org.apache.hadoop.util.{Tool, ToolRunner}
 import org.apache.hadoop.conf.Configuration
 import java.io.File
@@ -32,19 +33,22 @@ import org.apache.hadoop
   */
 @InterfaceAudience.Public
 @InterfaceStability.Unstable
-class NoJarTool(wrappedTool: hadoop.util.Tool,collectClassesFrom: Option[File] = Some(new File("/target/scala-2.11/classes/")),libJars: List[File] = Nil) extends Tool {
+class NoJarTool(wrappedTool: hadoop.util.Tool,collectClassesFrom: Option[File]  , libJars: List[File] = Nil) extends Tool {
 private var config = new Configuration()
 protected def run(args: Array[String]): Int = {
 
-checkIfConfigValidForRealMode(config)
-collectClassesFrom map { classesDir =>
-val classes = collectClasses(classesDir) map { clazz => prefixWithFileIfNeeded(clazz.toFile.getAbsolutePath) }
-val jars = libJars.map(jar => prefixWithFileIfNeeded(jar.toString))
-setLibJars(config, classes ++ jars)
+  checkIfConfigValidForRealMode(config)
+  collectClassesFrom map { classesDir =>
+    val classes = collectClasses(classesDir)  map { clazz => prefixWithFileIfNeeded(clazz.toFile.getAbsolutePath)}
+    val jars = libJars.map(jar => prefixWithFileIfNeeded(jar.toString))
+    setLibJars(config , classes ++ jars)
+
+  }
+
+  ToolRunner.run(config, wrappedTool, args)
+
 }
 
-ToolRunner.run(config, wrappedTool, args)
-}
 
 protected def collectClasses(classesDir: File): List[Path] = {
 val buffer = new ListBuffer[Path]() // paths to include
@@ -63,7 +67,7 @@ buffer.toList
   *  See Cascading's [[cascading.flow.hadoop.HadoopFlowStep]] to see how Cascading decides if it should use
   * orgapachehadoopmapredLocalJobRunner or the "real" one.
   */
-def checkIfConfigValidForRealMode(conf: Configuration)  {
+def checkIfConfigValidForRealMode(conf:Configuration)  {
 val key: String = "mapred.job.tracker"
 val jobTracker = conf.get(key)
 if(jobTracker == "local") {
@@ -79,13 +83,15 @@ s"This is probably not what you wanted if you're using ${getClass.getSimpleName}
   *  @param config config to be updated
   *  @param jarsOrClasses '''local''' paths to dependencies, such as class files of your Job, or Scalding's jar itself.
   */
-def setLibJars(config: Configuration, jarsOrClasses: List[String]) {
-config.setStrings("tmpjars", jarsOrClasses: _*)
-}
+def setLibJars(config:Configuration, jarsOrClasses:List[String]) {
+ config.setStrings("tmpfiles", jarsOrClasses:_*)
+ //for (i<-config.getStrings("tmpjars")) println(i)
+
+  }
 override def setConf(conf: Configuration): Unit = this.config = conf
 override def getConf: Configuration = config
 private def prefixWithFileIfNeeded(path: String): String = {
-val prefix = "file:///"
+val prefix = "file://"
 if (path.startsWith(prefix)) path
 else prefix + path
 }

@@ -1,1 +1,0 @@
-Stub Project Scalaz ,Scalding n ensime

@@ -1,9 +1,0 @@
-:q
-exit
-project activator-ui
-activator-ui
-stage
-exit
-update
-sbt
-exit

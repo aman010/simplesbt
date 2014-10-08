@@ -9,12 +9,21 @@
 		extra-scalaVersion="2.10"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140918224215"/>
+		date="20140925150428"/>
 	<dependencies>
+		<module organisation="default" name="global-plugins">
+			<revision name="0.0" status="integration" pubdate="20140925150428" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="default" name="simplesbt-build" conf="optional, compile, provided, compile-internal" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="net.virtual-void" name="sbt-dependency-graph">
 			<revision name="0.7.4" status="release" pubdate="20130722195754" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jrudolph/sbt-dependency-graph" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
 				<license name="Apache License 2.0" url="https://github.com/jrudolph/sbt-dependency-graph/raw/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="3315" time="0" location="/home/geek/.ivy2/cache/scala_2.10/sbt_0.13/net.virtual-void/sbt-dependency-graph/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/virtual-void/sbt-dependency-graph_2.10_0.13/0.7.4/sbt-dependency-graph-0.7.4.pom"/>
+				<caller organisation="default" name="global-plugins" conf="compile" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<caller organisation="default" name="simplesbt-build" conf="optional, compile, provided, compile-internal" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
 					<artifact name="sbt-dependency-graph" type="jar" ext="jar" status="no" details="" size="190171" time="0" location="/home/geek/.ivy2/cache/scala_2.10/sbt_0.13/net.virtual-void/sbt-dependency-graph/jars/sbt-dependency-graph-0.7.4.jar">
@@ -117,14 +126,6 @@
 			<revision name="2.10.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default(compile), default, compile, runtime, master" position="-1">
 				<evicted-by rev="2.10.4"/>
 				<caller organisation="org.scala-tools.sbinary" name="sbinary_2.10" conf="compile" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.4.2"/>
-				<artifacts>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="default" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20140918224211" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
-				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
-				<caller organisation="default" name="simplesbt-build" conf="optional, compile, provided, compile-internal" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
 				</artifacts>
 			</revision>

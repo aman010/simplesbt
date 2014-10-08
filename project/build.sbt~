@@ -1,0 +1,25 @@
+
+scalaVersion := "2.10.4"
+
+val scalazVersion= "7.0.0"
+
+libraryDependencies := Seq(
+"org.scalaz" % "scalaz-core_2.10" % scalazVersion, 
+"org.scalaz" % "scalaz-effect_2.10" % scalazVersion,
+"org.scalaz" % "scalaz-typelevel_2.10" % scalazVersion,
+"org.scalaz" % "scalaz-scalacheck-binding_2.10" % scalazVersion % "test"
+)
+
+//libraryDependencies ++= Seq(
+//exclude("org.scalaz", "scalaz-core_2.11"),
+//exclude("org.scalaz" ,"scalaz-effect_2.11"),
+//exclude ("org.scalaz" ,"scalaz-typelevel_2.11" ),
+//exclude ("org.scalaz" , "scalaz-scalacheck-binding_2.11")
+//)
+
+
+scalacOptions +="-feature"
+
+initialCommands in console := "import scalaz._ , Scalaz._"
+
+net.virtualvoid.sbt.graph.Plugin.graphSettings

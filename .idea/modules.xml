@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Activator-Scalding.iml" filepath="$PROJECT_DIR$/.idea/modules/Activator-Scalding.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Activator-Scalding-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Activator-Scalding-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scalding.iml" filepath="$PROJECT_DIR$/.idea/modules/Scalding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scalding-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Scalding-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplesbt.iml" filepath="$PROJECT_DIR$/simplesbt.iml" />
     </modules>
   </component>

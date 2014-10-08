@@ -1,6 +1,7 @@
 import com.twitter.scalding._
 import java.io.File
 import java.net.URLClassLoader
+
 class WordCountJob(args:Args) extends Job(args) {
 
 TextLine(args("input"))
@@ -10,6 +11,14 @@ TextLine(args("input"))
 
 }
 
+
+
+
+
+
+
+
+
 object WordCountJob{
  val name = "WordCountJob"
  val message = "######################Count######################"
@@ -18,24 +27,21 @@ object WordCountJob{
 def main(args:Array[String]){
 
   val master = "geek-HP-G42-Notebook-PC"
-
-  val classesDir =new File("/home/geek/Desktop/simplesbt" + "/target/scala-2.11/classes")
-
-  val loader = classLoaderSetup()
+ val loader = classLoaderSetup()
 if(args.length !=0){
-  Run.run(name,message,args)}
+  Runall.run(name,message,args)}
 else {
-Run.run(name , message , Array("--hdfs","geek-HP-G42-Notebook-PC:9000","--input", s"hdfs://$master:9000/articles.txt" , "--output" ,"/home/geek/Desktop/simplesbt/src/main/data/output.txt" ))
+Runall.run(name , message , Array("--local", s"$master:9000","--input", s"hdfs://$master:9000/articles.txt" , "--output" , "/home/geek/output.txt"))
 
-Run.printSomeOutput("src/main/data/output.txt")
+Runall.printSomeOutput("/home/geek/output.txt")
 
 }
  }
  def classLoaderSetup(): ClassLoader = {
-    val target = new File("/home/geek/Desktop/simplesbt" + "/target/scala-2.11/classes/")
+    val target = new File("file:///home/geek/Desktop/simplesbt" + "/target/scala-2.10/classes/")
     val classFiles = target :: Nil
     val jarFiles = List(
-      "home/geek/Desktop/simplesbt/target/scala-2.11/jars/Activator-Scalding-0.9.0.jar"
+      "/home/geek/Desktop/simplesbt/target/scala-2.10/Activator-Scalding-assembly-0.9.1-deps.jar"
     ).map(new File(_))
     val allDeps = jarFiles ::: classFiles
     val depUrls = allDeps map { _.toURI.toURL }

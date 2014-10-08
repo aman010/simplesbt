@@ -1,7 +1,5 @@
-cat
-cat
-dog
-cow
-cow
-dog
-dog
+System Shock is a 1994 first-person action role-playing video game developed by Looking Glass Technologies and published by Origin Systems. It was directed by Doug Church with Warren Spector (pictured) serving as producer. The game is set aboard a space station in a cyberpunk vision of the year 2072. Assuming the role of a nameless hacker, the player attempts to hinder the plans of a malevolent artificial intelligence called SHODAN. System Shock's 3D engine, physics simulation and complex gameplay have been cited as both innovative and influential. The developers sought to build on the emergent gameplay and immersive environments of their previous games, Ultima Underworld: The Stygian Abyss and Ultima Underworld II: Labyrinth of Worlds, by streamlining their mechanics into a more "integrated whole". Critics praised System Shock and hailed it as a major breakthrough in its genre. It was later placed on multiple hall of fame lists. The game was a moderate commercial success, with sales exceeding 170,000 copies; but Looking Glass ultimately lost money on the project. A sequel, System Shock 2, was released by Looking Glass Studios and off-shoot developer Irrational Games in 1999. (Full article...)
+
+Part of the Looking Glass Studios video games series, one of Wikipedia's featured topics.
+
+Recently featured: Gustav Holst – Great North of Scotland Railway – History of a Six Weeks' Tour

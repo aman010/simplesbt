@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: com.twitter
+Implementation-Title: scalding-core
+Implementation-Version: 0.12.0rc4
+Implementation-Vendor-Id: com.twitter
+Specification-Vendor: com.twitter
+Specification-Title: scalding-core
+Specification-Version: 0.12.0rc4
+Main-Class: com.twitter.scalding.Tool
+
