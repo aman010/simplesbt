@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Vendor: com.twitter
-Implementation-Title: scalding-date
-Implementation-Version: 0.9.1
-Implementation-Vendor-Id: com.twitter
-Specification-Vendor: com.twitter
-Specification-Title: scalding-date
-Specification-Version: 0.9.1
-
