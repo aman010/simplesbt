@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76cbd886-7099-4fc3-b31f-a5162d3e739e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/#build.sbt#" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_server_nodemanager_2_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/#Activator.scala#" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/.NoJarTool.scala.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/test.sc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Scalding.iml" afterPath="$PROJECT_DIR$/.idea/modules/Scalding.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_algebird_core_2_10_0_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_bijection_core_2_10_0_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_chill_2_10_0_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_chill_hadoop_0_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_chill_java_0_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_maple_0_12_0rc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_args_2_10_0_12_0rc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_core_2_10_0_12_0rc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_date_2_10_0_12_0rc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_twitter_scalding_repl_2_10_0_12_0rc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_fusesource_jansi_jansi_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_jline_2_10_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_compiler_2_10_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_4.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="simplesbt.iws" />
@@ -500,6 +507,11 @@
       <created>1410893036520</created>
       <updated>1410893036520</updated>
     </task>
+    <task id="LOCAL-00001" summary="scalding-project">
+      <created>1412774591672</created>
+      <updated>1412774591672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -593,7 +605,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="scalding-project" />
+    <option name="LAST_COMMIT_MESSAGE" value="scalding-project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
