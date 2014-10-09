@@ -89,7 +89,7 @@ val scaldingCore = "com.twitter" % "scalding-core_2.10" % V.scalding exclude( "c
 val scalding_repl = "com.twitter" % "scalding-repl_2.10" % V.scalding
 val hadoopCore = "org.apache.hadoop" % "hadoop-common" % V.hadoop
 val hadoopClientCore = "org.apache.hadoop" % "hadoop-mapreduce-client-core" % V.hadoop
-val hadoopClient = "org.apache.hadoop" % "hadoop-client" % V.hadoop
+val hadoopClient = "org.apache.hadoop" % "hadoop-client" % V.hadoop exclude("com.twitter" , "scalding-core_2.10") exclude("com.twitter","scalding-repl_2.10") 
 // Add additional libraries from mvnrepository.com (SBT syntax) here...                                                                               
 // Scala (test only)                                                                                                                                  
 val specs2 = "org.scalamock" % "scalamock-specs2-support_2.10" % V.specs2 % "test"
@@ -108,39 +108,17 @@ object ActivatorScaldingBuild extends Build {
 import Resolvers._
 import Dependencies._
 import BuildSettings._
-lazy val activatorscalding = Project(
-id = "Scalding",
+lazy val Scalding = Project(
+id = "activatorscalding",
 base = file("."),
 settings = buildSettings ++ Seq(
 // runScriptSetting,
 resolvers := allResolvers,
 libraryDependencies ++= Dependencies.activatorscalding,
 mainClass := Some("RunAll")))
-
 }
 
 
-/*import autoImport._
 
-object Pack extends AutoPlugin {
-
-override lazy val assemblySetting = Seq(commands += pack)
-
-lazy val pack = Command.command("pcaking ...") 
-{ (state:State) => 
-mergeStrategy in assembly <<= (mergeStrategy in assembly) {
-    (old) => {
-
-                 
-
-    }
-
-
-
-
-}
-
-
-}*/
 
 
