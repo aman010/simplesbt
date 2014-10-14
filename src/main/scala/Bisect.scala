@@ -11,5 +11,10 @@ def sortBy(x:Int) = x
 
 BisectPipe(TypedPipe.from((10 to 1 by -1).toList),10, sortBy)
  
+
+//qres$_.top.pipe.dump
+
+
+//bisect divides the field into two field by using groupall operation i.e. agr to single reducer. 
 }
 
