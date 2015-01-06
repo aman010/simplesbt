@@ -104,10 +104,13 @@ val activatorscalding = Seq(
 cascadingCore , cascadingLocal ,cascadingHadoop,cascadingtez, opertaionxml , scaldingCore  , hadoopCore , hadoopClientCore , hadoopClient,specs2, scalding_repl)
 }
 
-object ActivatorScaldingBuild extends Build {
+object ActivatorScaldingBuild extends Build 
+{
 import Resolvers._
 import Dependencies._
 import BuildSettings._
+
+
 lazy val Scalding = Project(
 id = "activatorscalding",
 base = file("."),
@@ -116,9 +119,7 @@ settings = buildSettings ++ Seq(
 resolvers := allResolvers,
 libraryDependencies ++= Dependencies.activatorscalding,
 mainClass := Some("RunAll")))
+
 }
-
-
-
 
 

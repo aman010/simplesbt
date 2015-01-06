@@ -34,7 +34,7 @@ import org.apache.hadoop
 @InterfaceAudience.Public
 @InterfaceStability.Unstable
 class NoJarTool(wrappedTool: hadoop.util.Tool,collectClassesFrom: Option[File]  , libJars: List[File] = Nil) extends Tool {
-private var config = new Configuration()
+private var config = new Configuration
 protected def run(args: Array[String]): Int = {
 
   checkIfConfigValidForRealMode(config)
@@ -84,8 +84,8 @@ s"This is probably not what you wanted if you're using ${getClass.getSimpleName}
   *  @param jarsOrClasses '''local''' paths to dependencies, such as class files of your Job, or Scalding's jar itself.
   */
 def setLibJars(config:Configuration, jarsOrClasses:List[String]) {
- config.setStrings("tmpfiles", jarsOrClasses:_*)
- //for (i<-config.getStrings("tmpjars")) println(i)
+ config.setStrings("tmpjars", jarsOrClasses:_*)
+ for (i<-config.getStrings("tmpjars")) println(i)
 
   }
 override def setConf(conf: Configuration): Unit = this.config = conf

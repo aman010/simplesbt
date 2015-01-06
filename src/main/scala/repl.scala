@@ -1,11 +1,18 @@
-/**
- * Created by geek on 14/10/14.
- */
+
 import com.twitter.scalding.ScaldingShell
+
 
 object repl {
 
-  def main(args:Array[String]):Unit= {
-    ScaldingShell.process(args)
+def main(args:Array[String]){
+val retval = ScaldingShell.process(args)
+
+if(!retval) {
+sys.exit(1)
+    }
   }
 }
+
+
+
+

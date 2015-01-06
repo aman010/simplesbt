@@ -1,0 +1,10 @@
+q1	wine	100	q1	wine	100
+q1	wine	100	q1	beer	220
+q1	wine	100	q1	coffee	550
+q1	beer	220	q1	wine	100
+q1	beer	220	q1	beer	220
+q1	beer	220	q1	coffee	550
+q1	coffee	550	q1	wine	100
+q1	coffee	550	q1	beer	220
+q1	coffee	550	q1	coffee	550
+q2	coffee	5	q2	coffee	5
